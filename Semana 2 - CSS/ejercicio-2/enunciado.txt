@@ -1,0 +1,18 @@
+Ejercicio 2: Creando una Tarjeta de Presentación
+Tiempo de resolución estimado: 20 minutos
+
+Objetivo: Enfocarse y dominar el Modelo de Cajas (padding, border, margin).
+Tareas:
+
+Creá un <div> principal en tu HTML con la clase tarjeta-presentacion.
+Dentro de la tarjeta, añade un <h2> con un nombre, un <p> con un cargo y otro <p> con un email.
+
+En tu CSS: Seleccioná la clase .tarjeta-presentacion.
+Dale un width fijo de 350px.
+
+Añadí un padding de 25px para que el contenido no esté pegado a los bordes.
+Creá un border sutil, por ejemplo: 1px solid #cccccc;.
+
+Añadí una sombra suave para que parezca que "flota" con la propiedad box-shadow: 5px 5px 10px #e0e0e0;.
+
+Finalmente, usa margin: 40px auto; para centrar la tarjeta horizontalmente en la página y darle un espacio superior.

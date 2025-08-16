@@ -1,0 +1,18 @@
+Ejercicio 3: Maquetando una Galería de Imágenes Fluida
+Tiempo de resolución estimado: 30 minutos
+Objetivo: Practicar el uso de display: flex para crear un layout básico y el uso de porcentajes para un diseño fluido.
+
+Tareas:
+
+En tu HTML, crea un <div> contenedor con la clase galeria. Dentro, coloca tres de las "tarjetas" del ejercicio anterior (puedes usar un <div> con la clase tarjeta-foto para cada una). 
+
+Cada tarjeta debe contener una imagen <img> y un pie de foto <p>.
+
+En tu CSS:Aplica la regla universal de box-sizing: border-box; al inicio de tu archivo.
+
+Seleccioná .galeria y aplícale display: flex; para que sus hijos (las tarjetas) se pongan uno al lado del otro. 
+Usa gap: 20px; para crear un espacio entre ellas.
+
+Seleccioná .tarjeta-foto y dale un width en porcentaje (ej: 30%) para que el layout sea fluido.
+
+Añadí una regla para que las imágenes (img) dentro de las tarjetas nunca se desborden: width: 100%; height: auto;.
