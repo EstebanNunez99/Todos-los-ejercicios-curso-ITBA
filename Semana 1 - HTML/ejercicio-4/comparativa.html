@@ -1,0 +1,58 @@
+<!--
+Ejercicio 4: Tabla Comparativa de Laptops
+Tiempo de resolución estimado: 25 minutos
+
+Objetivo: Construir una tabla de datos bien estructurada, utilizando sus etiquetas semánticas y atributos para fusionar celdas.
+
+Tareas:
+
+Creá un archivo comparativa.html.
+Insertá una <table> con un <caption> que diga "Comparativa de Laptops 2025".
+Usá <thead> para la fila de encabezado. La fila (<tr>) debe contener celdas de encabezado (<th>) para "Modelo", "Procesador", "Memoria RAM" y "Almacenamiento". No olvides el atributo scope="col".
+Usá <tbody> para añadir al menos tres laptops diferentes, cada una en su propia fila (<tr>) con sus datos en celdas <td>.
+Añadí una última fila que represente una "Oferta Especial". En esta fila, la primera celda (<td>) contendrá el texto de la oferta y deberá expandirse a lo ancho de 4 columnas usando el atributo colspan.-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla comparativa</title>
+</head>
+<body>
+    <table style="border: 1px solid black;">
+        <caption>Comparativa de Laptops 2025</caption>
+        <thead>
+            <tr>
+                <th scope="col" >Modelo</th>
+                <th scope="col">Procesador</th>
+                <th scope="col">Memoria RAM</th>
+                <th scope="col">Almacenamiento</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> <!-- Esto es una fila -->
+                <td> ThinkBook Plus Gen 6 Rollable (Lenovo) </td> <!--Esto se corresponde a la columna: Modelo-->
+                <td> Intel Core Ultra 7 (Serie 2)</td> <!--Esto se corresponde a la columna: Procesador-->
+                <td> Hasta 32 GB</td> <!--Esto se corresponde a la columna: RAM-->
+                <td> Hasta 1TB SSD </td> <!--Esto se corresponde a la columna: Almacenamiento-->
+            </tr>
+            <tr> <!-- Esto es una fila -->
+                <td> ASUS ROG Zephyrus G14 (2025) </td> <!--Esto se corresponde a la columna: Modelo-->
+                <td> AMD Ryzen AI 9 HX 370</td> <!--Esto se corresponde a la columna: Procesador-->
+                <td> Hasta 32 GB </td> <!--Esto se corresponde a la columna: RAM-->
+                <td> 1TB </td> <!--Esto se corresponde a la columna: Almacenamiento-->
+            </tr>
+            <tr> <!-- Esto es una fila -->
+                <td> ThinkPad X13 Gen 6 (Lenovo) </td> <!--Esto se corresponde a la columna: Modelo-->
+                <td> Intel Core Ultra 7</td> <!--Esto se corresponde a la columna: Procesador-->
+                <td> Hasta 64 GB LPDDR5 </td> <!--Esto se corresponde a la columna: RAM-->
+                <td> Hasta 2 TB SSDTB </td> <!--Esto se corresponde a la columna: Almacenamiento-->
+            </tr>
+            <tr><!--Fila para la oferta-->
+                <td colspan="4">Oferta Especial: MacBook Air (13 pulgadas, chip M4, 2025)</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

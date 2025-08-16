@@ -1,0 +1,71 @@
+<!--
+Ejercicio 3: Estructura Semántica de un Blog
+Tiempo de resolución estimado: 30 minutos
+Objetivo: Practicar el uso correcto de las etiquetas semánticas de HTML5 para estructurar una página. No te preocupes por el estilo, solo por la estructura correcta.
+Tareas:
+Creá un archivo blog.html.
+Usá la etiqueta <header> para la parte superior de la página. Dentro, coloca el <h1> del blog (ej: "Mi Blog de Aventuras") y una etiqueta <nav> con una lista de enlaces ("Inicio", "Acerca de", "Contacto").
+
+Usá la etiqueta <main> para envolver el contenido principal.
+
+Dentro de <main>, usá una etiqueta <article> para el post del blog. Este artículo debe tener su propio título (<h2>), varios párrafos (<p>) y una imagen.
+
+Dentro del article, creá dos sub-secciones temáticas usando <section>, cada una con su propio <h3> (ej: "El Viaje" y "La Comida").
+
+Al lado del <article> (pero todavía dentro de <main>), añade una barra lateral usando <aside>. Dentro, poné un <h3> que diga "Artículos Populares" y una lista de enlaces a otros posts.
+
+Finalmente, usá la etiqueta <footer> al final del <body> para la información de copyright.-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog</title>
+</head>
+<body>
+    <header>
+        <h1>Mi blog de cosas que solo me pasan a mí 😂</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>El dia que me mordió mi perro</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, sequi, exercitationem accusamus consectetur eum dolorum autem quam blanditiis expedita quae dolorem magnam dolor consequuntur quod deserunt? Odit tempore qui blanditiis.</p>
+            <img src="" alt="foto de mi perro en mi regaso">
+            <section>
+                <h3>El es mi perro Rocco</h3>
+                <img src="" alt="foto de Rocco">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, consectetur iste possimus impedit tempore tempora exercitationem vel veniam magni hic? Voluptatem at ut quo libero minus aperiam dolore illo ullam.</p>
+                <p>Textooooooooooooo de relllenooooooooooooooooooooooooooooooooo</p>
+            </section>
+            <section>
+                <h3>Le gusta tomar mates</h3>
+                <img src="" alt="foto de mi perro con el mate">
+                <p>Mas textoooooooo de relllenoooooooooooooooooo</p>
+                <p>aaaaaaaaaaaaaaa no se me ocurre mas nadaaaaaaaaaaa</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sapiente aut quidem corrupti repudiandae officiis temporibus officia suscipit, maiores esse molestiae consequatur iste quia rerum natus vero, similique tenetur hic?</p>
+            </section>
+        </article>
+        <aside>
+            <h3>Articulos populares</h3>
+            <ul>
+                <li><a href="#">Mi dia siendo Desarrollador FullStack</a></li>
+                <li><a href="#">Acompañame a la Facultad</a></li>
+                <li><a href="#">Cosas que pasan en el gimnasio</a></li>
+                <li><a href="#">Trucos para preparar un rico mate</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>copyright &copy; 2025 Esteban Nuñez todos los derechos reservados</p>
+    </footer>
+    
+</body>
+</html>

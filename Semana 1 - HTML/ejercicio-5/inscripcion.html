@@ -1,0 +1,73 @@
+<!--
+Ejercicio 5: Formulario de Inscripción a un Evento
+Tiempo de resolución estimado: 35 minutos
+
+Objetivo: Crear un formulario completo y accesible, utilizando una variedad de campos de entrada.
+
+Tareas:
+
+Creá un archivo inscripcion.html.
+Envolvé todo en una etiqueta <form>.
+Creá los siguientes campos, asegurándote de que cada uno tenga una etiqueta <label> asociada correctamente con los atributos for e id:
+Nombre Completo: Un <input type="text">.
+Correo Electrónico: Un <input type="email">.
+Crear Contraseña: Un <input type="password">.
+Taller de Interés: Un menú desplegable (<select>) con al menos tres talleres como opciones (<option>).
+Tipo de Asistencia: Usa dos <input type="radio"> con el mismo name para las opciones "Presencial" y "Virtual".
+Acepto los términos y condiciones: Un <input type="checkbox">.
+Comentarios adicionales: Un <textarea> con 5 filas de alto.
+Añadí un botón de envío al final: <button type="submit">Inscribirme</button>.-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción</title>
+</head>
+<body>
+    <form action="/enviar-inscripcion" method="post">
+        <div>
+            <label for="nombreCompleto">Nombre Completo</label>
+            <input type="text" id="nombreCompleto" name="nombre" required placeholder="Ej: Esteban Ignacio Nuñez">
+        </div>
+
+        <div>
+            <label for="correoElectronico">Correo Electrónico</label>
+            <input type="email" id="correoElectronico" name="email" required placeholder="Ej: esteban@gmail.com">
+        </div>
+
+        <div>
+            <label for="contrasenia">Crear Contraseña</label>
+            <input type="password" id="contrasenia" name="contrasenia" required>
+        </div>
+
+        <div>
+            <label for="talleres">Taller de Interés</label>
+            <select name="talleres" id="talleres" required>
+                <option value="" disabled selected>Seleccione un taller</option>
+                <option value="canto"> Taller de Canto</option>
+                <option value="guitarra"> Taller de  Guitarra</option>
+                <option value="Git"> Taller de Git y GitHub</option>
+                <option value="ceramica"> Taller de Cerámica</option>
+            </select>
+        </div>
+        <div>
+            <label for="presencial">Presencial</label>
+            <input type="radio" id="presencial" name="asistencia" required>
+            <label for="virtual">Virtual</label>
+            <input type="radio" id="virtual" name="asistencia">
+        </div>
+
+        <div>
+            <input type="checkbox" id="terminos-y-condiciones" required>
+            <label for="terminos-y-condiciones">Acepto terminos y condiciones</label>
+        </div>
+
+        <div>
+            <label for="comentarios-adicionales">Comentarios adicionales:</label>
+            <textarea name="comentarios-adicionales" id="comentarios-adicionales" rows="5"></textarea>
+        </div>
+        <button type="submit">Inscribirme</button>
+    </form>
+</body>
+</html>
