@@ -171,7 +171,7 @@ img {
     justify-content: space-between;
     gap: 10px;
     height: 100vh; /**sacar despues**/
-    background-color: #C47A6D;
+    background-color: #87A96B;
 }
 .encabezado{
     border: 1px solid black;
@@ -226,4 +226,10 @@ img {
 
 .pie-de-pagina a {
     text-decoration: none;
+}
+
+@media(max-width:786px){
+    .principal{
+        flex-direction: column;
+    }
 }
