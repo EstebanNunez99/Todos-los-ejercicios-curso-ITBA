@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.galeria {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.tarjeta-foto {
+    width: 95%;
+}
+
+img{ 
+    width: 100%;
+    height: auto;
+}
+
+@media(min-width: 768px){
+    .galeria{
+        flex-direction: row;
+    }
+
+    .tarjeta-foto {
+        width: 31%;
+    }
+}

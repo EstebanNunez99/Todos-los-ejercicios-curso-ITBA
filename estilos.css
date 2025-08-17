@@ -1,0 +1,229 @@
+/** 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #8d825b;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.encabezado {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #6f6439;
+}
+.titulo-encabezado {
+    color: #ffffff;
+    background-color: transparent;
+    padding: 2vh;
+}
+.descripcion-encabezado{
+    color: white;
+    background-color: transparent;
+    padding: 2vh;
+}
+.navegacion ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration:none;
+    background-color: transparent;
+}
+
+.navegacion li {
+    display: flex;
+    text-decoration:none;
+    padding: 5vh;
+    background-color: transparent; 
+}
+
+.navegacion{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid;
+}
+
+
+.seccion-equipo{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    padding: 10px;
+}
+.subtitulo-seccion-equipo{
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+**/
+/**
+.tarjeta-equipo{
+    width: 95%;
+    box-shadow: 5px 5px 5px 10px #333022; /*Le da una sombra*/ 
+/**
+    margin: 40px auto;
+}
+**/
+/**
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.seccion-procyecto-actual{
+    border: 1px solid;
+    padding: 3%;
+}
+
+.nuestro-cliente{
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+
+}
+.subtitulo-seccion{
+    padding: 10px;
+}
+.subtitulo-cliente{
+    padding: 10px;
+}
+.descripcion-cliente{
+    padding-bottom: 15px;
+}
+.nuestro-cliente-logo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo-hermanos-jota{
+    height: 5em;
+    width: 5em;
+}
+.articulo{
+    padding: 20px;
+}
+
+.pie-de-pagina{
+    border: 1px solid;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.pie-de-pagina ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration:none;
+    background-color: transparent;
+}
+
+.pie-de-pagina li {
+    display: flex;
+    text-decoration:none;
+    padding: 5vh;
+    background-color: transparent; 
+}
+**/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.encabezado{
+    background-color: #A0522D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.logo-encabezado{
+    height:5em;
+    width: 5em;
+    border: 1px solid black;
+    border-radius: 7px;
+    display: block;
+}
+.titulo-encabezado{
+    border: 1px solid black;
+}
+.iniciar-sesion{
+    border: 1px solid black;
+    padding: 10px;
+}
+.iniciar-sesion a{
+    text-decoration: none;
+    color: black;
+}
+.principal{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    height: 100vh; /**sacar despues**/
+    background-color: #C47A6D;
+}
+.encabezado{
+    border: 1px solid black;
+}
+
+.secciones{
+    border: 1px solid black; 
+    flex: 3;
+    background-color:  #87A96B;
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion{
+    border: solid 1px black;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    flex: 1;
+    background-color: #F5E6D3;
+}
+
+.articulo {
+    border: 1px solid black;
+    flex: 1;
+    background-color: #C47A6D;
+}
+
+.pie-de-pagina {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #A0522D;
+    /**background-color: #507ca3; este lo dejo pq me gustó el color voy a usar en otro lado dsps**/
+}
+
+.pie-de-pagina ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    gap: 25px;
+}
+
+.pie-de-pagina li {
+    text-align: center;
+    border: 1px solid;
+    padding: 5px;
+    
+}
+
+.pie-de-pagina a {
+    text-decoration: none;
+}

@@ -1,0 +1,18 @@
+Ejercicio 4: Adaptando la Galería (Diseño Responsivo)
+Tiempo de resolución estimado: 35 minutos
+
+Objetivo: Implementar Media Queries para que el diseño del ejercicio anterior se adapte a pantallas de móvil.
+Tareas:
+
+Asegurate de tener la meta etiqueta viewport en tu HTML.
+
+Adoptá un enfoque Mobile-First. En tus estilos base (fuera de cualquier media query), haz que .galeria se apile verticalmente: flex-direction: column;. 
+
+Las tarjetas (tarjeta-foto) deberían ocupar casi todo el ancho, por ejemplo width: 95%;.
+
+Ahora, añadí una Media Query al final de tu archivo CSS: @media (min-width: 768px) { ... }. Este será nuestro "breakpoint" para tablets y escritorios.
+
+Dentro de la media query, sobreescribe los estilos para pantallas grandes:
+Cambiá .galeria para que vuelva a ser horizontal: flex-direction: row;.
+Ajustá el ancho de .tarjeta-foto a un porcentaje más pequeño para que quepan varias en una fila, por ejemplo width: 31%;.
+Abrí la página en tu navegador y cambia el tamaño de la ventana. ¡Observa cómo el layout cambia de una columna a varias!

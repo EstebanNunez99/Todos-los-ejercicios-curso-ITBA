@@ -1,0 +1,18 @@
+Creá una sección <header> con la clase hero-banner. Dentro, coloca un <h1> y un <p> con un llamado a la acción.
+En tu CSS:Usa el reseteo universal * { margin: 0; padding: 0; box-sizing: border-box; }.
+
+Seleccioná .hero-banner y haz que ocupe el 100% de la altura de la ventana del navegador con height: 100vh;.
+Dale un color de fondo o una imagen de fondo.
+
+Para centrar el texto perfectamente, usa la "magia" de Flexbox: CSS
+
+
+.hero-banner {
+  /* ... otros estilos ... */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra verticalmente */
+  align-items: center;   /* Centra horizontalmente */
+}
+ 
+Estilizá el <h1> y el <p> dentro del banner (color, tamaño de fuente, etc.). Usa una media query para reducir el font-size del <h1> en pantallas pequeñas y que no se vea desproporcionado.
