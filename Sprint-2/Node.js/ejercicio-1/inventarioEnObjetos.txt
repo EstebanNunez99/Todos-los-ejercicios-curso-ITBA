@@ -1,0 +1,17 @@
+[
+    {
+        "id":1 ,
+        "nombreProducto": "Sofá 3 cuerpos" , 
+        "stock": 0
+    },
+    {
+        "id":2 ,
+        "nombreProducto": "Mesa de Roble" , 
+        "stock": 5
+    },
+    {
+        "id":3 ,
+        "nombreProducto": "Silla de Comedor " , 
+        "stock": 15
+    }
+]

@@ -140,6 +140,7 @@ img {
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 .encabezado{
     background-color: #A0522D;
     display: flex;
@@ -217,19 +218,36 @@ img {
     gap: 25px;
 }
 
-.pie-de-pagina li {
-    text-align: center;
-    border: 1px solid;
-    padding: 5px;
-    
-}
 
-.pie-de-pagina a {
-    text-decoration: none;
-}
 
 @media(max-width:786px){
     .principal{
         flex-direction: column;
     }
+}
+
+input[type="email"] {
+    border: solid 2px red;
+}
+
+#titulo-principal {
+  color: blue;
+}
+ 
+.titulo-rojo {
+  color: red;
+}
+
+.caja {
+  width: 200px;
+  padding: 20px;
+  border: 5px solid black;
+}
+.caja-2 {
+  width: 200px;
+  padding: 20px;
+  border: 1px solid black;
+}
+.pie-de-pagina > li{
+    color: red;
 }
